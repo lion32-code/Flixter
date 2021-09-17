@@ -20,6 +20,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Improve the user interface through styling and coloring
+* [ ] Display a nice default placeholder graphic for each image during loading (read more about Glide). If you're running your app on an emulator, you can change the network speed of the emulator to test this feature by following the guidance here.
+* [ ] Improve the user interface through styling and coloring 
+* [ ] For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones. 
 
 ## Video Walkthrough
 
