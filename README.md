@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-I had to try to use android studio without emulator so I did it by connecting usb cable into my android device to see whether the app functions properly or not. I had to ensure that the texts are visible whenever keyboard is used for typing. 
+I had to try to use android studio without emulator so I did it by connecting usb cable into my android device to see whether the app functions properly or not. I had to ensure that the texts are visible whenever user is scrolling down.
 
 ## License
 
