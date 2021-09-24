@@ -5,30 +5,28 @@
 
 Submitted by: **Ruhi Rownak**
 
-Time spent: **15** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+* [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+* [x] Allow video posts to be played in full-screen using the YouTubePlayerView
 
 The following **optional** features are implemented:
 
-* [x] Views should be responsive for both landscape/portrait mode. 
-
-The following **additional** features are implemented:
-
-* [x] Improve the user interface through styling and coloring
-* [ ] Display a nice default placeholder graphic for each image during loading (read more about Glide). If you're running your app on an emulator, you can change the network speed of the emulator to test this feature by following the guidance here.
-* [ ] Improve the user interface through styling and coloring 
-* [ ] For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones. 
+* [] Implement a shared element transition when user clicks into the details of a movie
+* [] Trailers for popular movies are played automatically when the movie is selected
+* [] Add a play icon overlay to popular movies to indicate that the movie can be played
+* [] Apply data binding for views to help remove boilerplate code.
+* [] Add a rounded corners for the images using the Glide transformations.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Flixter Walkthrough.gif' title='Flixter Walkthrough' width='' alt='Flixter Walkthrough' />
+<img src='Walkthrough2.gif' title='Flixter Walkthrough' width='' alt='Flixter Walkthrough' />
 
 
 ## Notes
