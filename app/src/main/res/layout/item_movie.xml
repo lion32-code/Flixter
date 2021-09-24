@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#000000"
-    >
+    android:background="#000000">
 
 
     <ImageView
@@ -17,6 +17,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:contentDescription="Shang Chi"
+        android:transitionName="profile"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -29,8 +30,8 @@
         android:layout_marginTop="-1dp"
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="22sp"
         android:textColor="@color/white"
+        android:textSize="22sp"
         tools:text="Shang-Chi and the Legend of the Ten Rings" />
 
     <TextView
